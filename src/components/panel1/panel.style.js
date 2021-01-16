@@ -18,4 +18,9 @@ export default {
   avatar: {
     maxHeight: 350,
   },
+  "@media (max-width: 700px)": {
+    avatar: {
+      maxHeight: 250,
+    },
+  },
 };

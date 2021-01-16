@@ -17,8 +17,14 @@ export default {
     marginTop: 30,
     letterSpacing: 2.5,
   },
+
   avatar: {
     maxHeight: 350,
+  },
+  "@media (max-width: 700px)": {
+    avatar: {
+      maxHeight: 250,
+    },
   },
   grid: {
     display: "flex",
